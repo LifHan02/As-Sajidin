@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #27ae60; /* Green background */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1, p {
+    color: #2c3e50; /* Dark text color */
+}
+
+#textToCopy {
+    background-color: #ecf0f1; /* Light grey text background */
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#copyButton {
+    padding: 15px 30px;
+    background-color: #2ecc71; /* Light green button */
+    color: #ffffff; /* White button text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#copyButton:hover {
+    background-color: #27ae60; /* Dark green hover */
+}
+
